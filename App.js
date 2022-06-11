@@ -1,12 +1,13 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import Login from "./Login";
-import Register from "./Register";
+import Login from "./Screens/Login";
+import Register from "./Screens/Register";
 
+//here we call the register screen  and display it
 export default function App() {
   return (
     <View style={styles.container}>
-      <Login></Login>
+      <Register></Register>
     </View>
   );
 }

@@ -87,7 +87,7 @@ export default class Login extends Component {
         <ReactImage
           data-layer="29b71159-4e53-4bd5-a28e-20d4d6386084"
           style={styles.login_path1}
-          source={require("./assets/path1.png")}
+          source={require("../assets/path1.png")}
         />
         <Text
           data-layer="74487432-acb1-4d50-89fa-924c45980ee7"
@@ -117,13 +117,13 @@ export default class Login extends Component {
         </Text>
         <ReactImage
           data-layer="bd01b629-b70f-4d05-9ff2-1a3454f4bcac"
-          source={require("./assets/x1.png")}
-          style={styles.login_x1}
+          source={require("../assets/userIcon.png")}
+          style={styles.login_userIcon}
         />
         <ReactImage
           data-layer="c7179ea5-c1dd-493f-a606-5bfcf3fc7ff8"
-          source={require("./assets/x3.png")}
-          style={styles.login_x3}
+          source={require("../assets/passIcon.png")}
+          style={styles.login_passIcon}
         />
         <Text
           data-layer="56b039cc-d38e-47ff-a9a9-7d57aad7eb97"
@@ -133,7 +133,7 @@ export default class Login extends Component {
         </Text>
         <ReactImage
           data-layer="c2426112-b0ef-4d2f-85e6-8bf5266528aa"
-          source={require("./assets/rectangle3.png")}
+          source={require("../assets/rectangle3.png")}
           style={styles.login_rectangle3}
         />
         <Text
@@ -150,18 +150,18 @@ export default class Login extends Component {
         </Text>
         <ReactImage
           data-layer="00e1f67e-3955-4722-93ba-c89ce405a905"
-          source={require("./assets/x6.png")}
-          style={styles.login_x6}
+          source={require("../assets/googleIcon.png")}
+          style={styles.login_googleIcon}
         />
         <ReactImage
           data-layer="16c95791-9d33-4e51-b02e-656d00a8a6a0"
-          source={require("./assets/x8.png")}
-          style={styles.login_x8}
+          source={require("../assets/facebookIcon.png")}
+          style={styles.login_facebookIcon}
         />
         <ReactImage
           data-layer="254c3680-e815-4c5f-82b2-0b99adf30a2b"
-          source={require("./assets/x7.png")}
-          style={styles.login_x7}
+          source={require("../assets/appleIcon.png")}
+          style={styles.login_appleIcon}
         />
         <Text
           data-layer="2b7fef8c-1421-41da-b528-d44e93279abf"
@@ -177,7 +177,7 @@ export default class Login extends Component {
         </Text>
         <ReactImage
           data-layer="db033b63-1ce3-4c1d-b3c8-f958b1a589b4"
-          source={require("./assets/logoCopy.png")}
+          source={require("../assets/logoCopy.png")}
           style={styles.login_logoCopy}
         />
       </SafeAreaView>
@@ -351,7 +351,7 @@ const styles = StyleSheet.create({
     left: 89,
     top: 365,
   },
-  login_x1: {
+  login_userIcon: {
     opacity: 1,
     position: "absolute",
     marginTop: 0,
@@ -367,7 +367,7 @@ const styles = StyleSheet.create({
     left: 24,
     top: 286,
   },
-  login_x3: {
+  login_passIcon: {
     opacity: 1,
     position: "absolute",
     marginTop: 0,
@@ -468,7 +468,7 @@ const styles = StyleSheet.create({
     left: 165,
     top: 587,
   },
-  login_x6: {
+  login_googleIcon: {
     opacity: 1,
     position: "absolute",
     marginTop: 0,
@@ -484,7 +484,7 @@ const styles = StyleSheet.create({
     left: 145,
     top: 606,
   },
-  login_x8: {
+  login_facebookIcon: {
     opacity: 1,
     position: "absolute",
     marginTop: 0,
@@ -500,7 +500,7 @@ const styles = StyleSheet.create({
     left: 203,
     top: 606,
   },
-  login_x7: {
+  login_appleIcon: {
     opacity: 1,
     position: "absolute",
     marginTop: 0,
